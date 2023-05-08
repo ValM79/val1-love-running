@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +28,7 @@ h2 {
     margin-left: 30px;
 }
 
-/* navigation link */
+/* navigation links */
 
 #menu {
     font-size: 110%;
@@ -50,7 +49,6 @@ h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu a:hover {
@@ -87,10 +85,7 @@ h2 {
     animation-fill-mode: forwards;
 }
 
-/* creats the level of zoom fo hero image */
-
-
-
+/* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -117,6 +112,7 @@ h2 {
 
     bottom: 30px;
     right: 150px;
+
     position: absolute;
 }
 
@@ -171,18 +167,17 @@ hr {
 
 .right-about-heading p {
     text-align: right;
-
 }
 
-#welcom {
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
 
 #circle-container {
-    height: 300px;
     width: 300px;
+    height: 300px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -196,6 +191,8 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* event times */
 
 #times {
     background-image: url('../image/dublin-city.webp');
@@ -221,6 +218,8 @@ hr {
 #times h2 {
     color: #fafafa;
 }
+
+/* footer */
 
 footer {
     height: 150px;
@@ -254,18 +253,17 @@ footer {
     width: 100%;
 }
 
-/* media queries */
+/* Media queries */
 
-/* For large to medium screens size from 1200px wide and down */
-
-@media screen and (max-width 1200px) {
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #welcom {
+    #welcome {
         padding: 30px 0;
         margin: 0;
     }
@@ -287,14 +285,16 @@ footer {
     hr {
         display: none;
     }
+}
 
-    /* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 950px wide and down */
 
-    @media screen and (max-width 950px) {
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
-        }
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
